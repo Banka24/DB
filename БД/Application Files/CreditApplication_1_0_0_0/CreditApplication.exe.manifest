@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CreditApplication.exe" version="1.0.0.0" publicKeyToken="2ad5e6d96c7364ed" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="money.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CreditApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CreditApplication.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CreditApplication.exe" size="548832">
+      <assemblyIdentity name="CreditApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2yPA+AddY6T+/VC/tktKy0sleD+EqUInoLX15yTGx8k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\EntityFramework.resources.dll" size="501456">
+      <assemblyIdentity name="EntityFramework.resources" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HeToYwsrFcDybiQM5EVxXH6AJ2JRQQsKGyA5tpD3Rn0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CreditApplication.exe.config" size="1445">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+Bwqq2j1+js9uG0ZB3sRixRSO7EjQGNLKpcYdUcpJ4A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Entities\Model1.Context.tt" size="22930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iH6jRm/ArXOO/wVogKb8ZOaRJ6DvCC6vOswudwQkDnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Entities\Model1.tt" size="25275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CabSpKm6yYNT6twBZzKHKM3v3aBYMgNzK0uSDYpHoWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="money.ico" size="216542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6uOTN3kAN3U700xEPlCzPtbm6JV0fuuHmpfetgn4Hgk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3B43TEB\Banka" issuerKeyHash="d2bf043476157e495cc61cc461f9b5a31c74df53" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Vy7R5cPukMCdE7DvGCx57/tcsWW++y0vJvSf8AbwHiQ=</DigestValue></Reference></SignedInfo><SignatureValue>vem+f5Qswes2+KG+896+x+Cyssu6/DOn9WlveX7IgROnzSz2VUMz7RrcfG2MOtgnYOn9p7O5q1fmmdz1vFYQR75caCfoVF+zbKnP+u92dnp9nKODB1V8y0skB3xX2x/rSpqKQ1OUMvaz7Qxa2lotNAyPDelEN7Nnz2rfb/Ljq/w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7AlxKFV85NiF01RuB7ObkT25bxiqmf/tvQekrLxMQvcd9Ug4yoJYPcoDpAuglCeISHdTvv/2vRoLU4hzFS5AWtnYNheDJVRrrF+tkAS9WB9/Uz1thBWhDf/F8VWNoVWXEg8rCleqJol46kuol/OnwSuxYR5+4tN3XD0TDWFXhsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="241ef006f09ff4262f2dfbbe65b15cfbef792c18efb0139dc090eec3e5d12e57" Description="" Url=""><as:assemblyIdentity name="CreditApplication.exe" version="1.0.0.0" publicKeyToken="2ad5e6d96c7364ed" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3B43TEB\Banka</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a5rYnM9Bq1MocdlXP7iFV7A50D0Q4093G7u+vGlfBsI=</DigestValue></Reference></SignedInfo><SignatureValue>dBUdDFVC6vynKBMmCiY+UPG42Dsx0/wGLPw9GtHMqS2R7iRasX1RW2BP3yDjD2JL69Dom2V9tMqNwoXxhGXEMquIDg4ZMKSyR10nBb7SUNKxIxQVvzwsJmAriRON2WEK+p2X0nJdnjZj1WNXASuTdxRZEUsaKcJbAd9hGCRD/Bk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7AlxKFV85NiF01RuB7ObkT25bxiqmf/tvQekrLxMQvcd9Ug4yoJYPcoDpAuglCeISHdTvv/2vRoLU4hzFS5AWtnYNheDJVRrrF+tkAS9WB9/Uz1thBWhDf/F8VWNoVWXEg8rCleqJol46kuol/OnwSuxYR5+4tN3XD0TDWFXhsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVYgM46ClqKFJ+8zAHaA90DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAQgA0ADMAVABFAEIAXABCAGEAbgBrAGEwHhcNMjMwNDI2MTM1MzUxWhcNMjQwNDI1MTk1MzUxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAQgA0ADMAVABFAEIAXABCAGEAbgBrAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOwJcShVfOTYhdNUbgezm5E9uW8Yqpn/7b0HpKy8TEL3HfVIOMqCWD3KA6QLoJQniEh3U77/9r0aC1OIcxUuQFrZ2DYXgyVUa6xfrZAEvVgff1M9bYQVoQ3/xfFVjaFVlxIPKwpXqiaJeOpLqJfzp8ErsWEefuLTd1w9Ew1hV4bBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAF+gi7ZOcjmfDRlXH2KZ3bLDtokItV2kp4U4QuuL1wfX8ov7HSN0JiXw3vIbUo8uiQhCtLO1vLT821vaeTV75sOkY3mhOuxk3AQfxKd4HbUKzLR03u/LTd82qrq6qQI0gyCLQwrSKKOxv6ov8T/55McHZQP//dQZUdFNq0LlH1Jk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
